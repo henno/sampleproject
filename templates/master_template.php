@@ -45,25 +45,11 @@
         </div>
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="halo">Halo admin</a></li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Sample dropdown <b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#">Action</a></li>
-                        <li><a href="#">Another action</a></li>
-                        <li><a href="#">Something else here</a></li>
-                        <li class="divider"></li>
-                        <li class="dropdown-header">Nav header</li>
-                        <li><a href="#">Separated link</a></li>
-                        <li><a href="#">One more separated link</a></li>
-                    </ul>
-                </li>
+                <li <?= $controller=='welcome'? 'class="active"':''?>><a href="#">Home</a></li>
+                <li <?= $controller=='users'? 'class="active"':''?>><a href="users">Users</a></li>
+
             </ul>
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="..">Sample item</a></li>
-                <li class="active"><a href="./">Sample active item</a></li>
-            </ul>
+
         </div>
         <!--/.nav-collapse -->
     </div>

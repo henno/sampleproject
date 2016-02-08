@@ -1,16 +1,26 @@
 <h3>Users</h3>
 <ul class="list-group">
-    <? foreach ($users as $user): ?>
-        <li class="list-group-item"><a
-                href="users/view/<?= $user['user_id'] ?>/<?= $user['username'] ?>"><?= $user['username'] ?></a></li>
-    <? endforeach ?>
+    <table class="table table-bordered">
+        <tr>
+            <th>Full name</th>
+            <th>Username</th>
+        </tr>
+        <? foreach ($users as $user): ?>
+            <tr>
+                <td><?= $user['full_name'] ?></td>
+                <td><?= $user['username'] ?></td>
+            </tr>
+        <? endforeach ?>
+
+
+    </table>
 </ul>
 
 <?php if ($auth->is_admin): ?>
-<h3>Add new user</h3>
+    <h3>Add new user</h3>
 
-<form method="post" id="form">
-    <form id="form" method="post">
+    <form method="post" id="form">
+
         <table class="table table-bordered">
             <tr>
                 <th>Username</th>
@@ -32,5 +42,6 @@
         </table>
 
         <button class="btn btn-primary" type="submit">Add</button>
+
     </form>
-    <?php endif; ?>
+<?php endif; ?>

@@ -1,6 +1,7 @@
 {
   "require": {
-    "components/bootstrap": "^3.3"
+    "components/bootstrap": "^3.3",
+    "codeception/codeception": "^2.1"
   },
   "autoload": {
     "psr-4": {
