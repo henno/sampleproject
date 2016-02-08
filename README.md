@@ -22,8 +22,8 @@ Do the story:
 2. Write acceptance test in tests/acceptance/UsersPageTableIsSortable.php (don't forget to include login steps)
 3. Implement story. Put script links to master_template.php. The table is located in users_index.php
 4. Run codecept run to see that the story passes
-5. Commit with the message of the 
+5. Commit with a message "As an authenticated user, I want to sort the table on the Users page by clicking on the table headers"
 
 Send me your results
 ===
-1. Send me the link to your pull request along with how much would that story have cost me, if it was a real story for a real project.
+1. Send me the link to your commit on github along with how much would that story have cost me, if it was a real story for a real project (without taking into account the initial project setup, of course)
