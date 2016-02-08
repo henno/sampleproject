@@ -13,7 +13,8 @@ Setup the project
 3. Import doc/database.sql to your local mysql database
 4. Run composer install
 5. Install codeception globally to your computer or use vendor/bin/codecept
-6. Test that http://localhost/sampleproject/ opens and you can click on Users and log in with demo:demo.
+6. Install and run selenium server on port 4444 (or change acceptance.suite.yml to use PhpBrowser instead) 
+7. Test that http://localhost/sampleproject/ opens and you can click on Users and log in with demo:demo.
 
 Do the story:
 ===
