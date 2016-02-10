@@ -28,7 +28,16 @@ Do the story:
 Send me your results
 ===
 1. Upload your project on Github or Bitbucket and send me a link to your commit along with how much would that story have cost me, if it was a real story for a real project (without taking into account the initial project setup, of course)
+
+Update (2016-02-10 12:41 UTC):
+===
+1. If you haven't done that already, modify your acceptance test so that you first get the user data from SQL (ordered by SQL) to PHP array (you can use get_all() for that) and then compare that array with what Codeception sees on the page. If your PHP array and Codeception returned data are in the same order, test passes.
+2. Notify me that I can pull your commit.
  
+Pricing model explanation
+===
 We first give our customers a ballpark estimation based on gut-feeling, of what a particular story could take. But this is just a prediction, not a commitment. 
 Then we do the story. Then we reset the story time of what we think it would take us now to implement this story from the scratch (subtracting the time we spent on googling and being on the wrong track and fixing our stupid mistakes). 
 This is good in two ways: first we don't penalize the customer for our time spent on educating ourselves; secondly, as developers, we no longer have to commit to gut-feeling estimations that later could turn out to take 10x more time in reality. I expect you to adhere to the same model.
+
+
