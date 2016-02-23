@@ -8,7 +8,7 @@ Remember that less is more: nothing that has not been defined in the user story 
 
 Setup the project
 ====
-1. Clone the fork to your computer, delete .git folder and init git again
+1. Clone the project to your computer, delete .git folder and init git again. If you just download the zip file, you will lose the files beginning with a dot like .htaccess and .gitignore. So do not download zip. Clone!
 2. Copypaste config.sample.php to config.php and adjust settings there
 3. Import doc/database.sql to your local mysql database
 4. Run composer install
