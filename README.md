@@ -8,13 +8,15 @@ Remember that less is more: nothing that has not been defined in the user story 
 
 Setup the project
 ====
-1. Clone the project to your computer, delete .git folder and init git again. If you just download the zip file, you will lose the files beginning with a dot like .htaccess and .gitignore. So do not download zip. Clone!
-2. Copypaste config.sample.php to config.php and adjust settings there
-3. Import doc/database.sql to your local mysql database
-4. Run composer install
-5. Install codeception globally to your computer or use vendor/bin/codecept
-6. Install and run selenium server on port 4444 (or change acceptance.suite.yml to use PhpBrowser instead) 
-7. Test that http://localhost/sampleproject/ opens and you can click on Users and log in with demo:demo.
+1. Clone the project to your computer. If you just download the zip file, you will lose the files beginning with a dot like .htaccess and .gitignore. So do not download zip. Clone!
+2. Delete the <code>.git</code> folder in the project's root folder
+3. Run <code>git init</code> to make a new repository
+4. Copypaste config.sample.php to config.php and adjust settings there
+5. Import doc/database.sql to your local mysql database
+6. Run composer install
+7. Install codeception globally to your computer or use vendor/bin/codecept
+8. Install and run selenium server on port 4444 (or change acceptance.suite.yml to use PhpBrowser instead) 
+9. Test that http://localhost/sampleproject/ opens and you can click on Users and log in with demo:demo.
 
 Do the story:
 ===
