@@ -33,7 +33,7 @@ Pricing model explanation and how we will work
 - I will be writing stories with the customer
 - Customer decides the order of the stories
 - We don't pre estimate the stories. If the customer asks, we only give a ballpark estimation. But this is just a prediction, not a commitment. 
-- Then we do the story. 
+- Then the story is done.
 - *Then* we set the story time of what we think it would take us *now* to implement this story from the scratch (basically we don't take the time we spent on googling finding solutions and being on the wrong track and fixing our silly mistakes into account). 
 - Then I and the customer will have a meeting where we will go over the completed stories and I walk the customer through these stories. If everything is according to story spec, I will have him accept the given story and move on to the next one with him.
 - At the end of the month, we bill the customer by the cumulative hours of stories he has accepted in that month. Bugs excluded.
