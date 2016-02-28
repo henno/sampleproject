@@ -30,7 +30,10 @@ How to send me your results
 
 Pricing model explanation and how we will work
 ===
-If the customer asks, we first only give our customers a ballpark estimation based on gut-feeling, of what a particular story could take. But this is just a prediction, not a commitment. Then we do the story. Then we adjust the story time of what we think it would take us *now* to implement this story from the scratch (basically we don't take the time we spent on googling finding solutions and being on the wrong track and fixing our silly mistakes into account).
-This is good in two ways: first we don't penalize the customer for our time spent on educating ourselves; secondly, as developers, we no longer have to commit to gut-feeling estimations that later could turn out to take 10x more time in reality. I expect you to adhere to the same model.
-
-
+- Customer sets the order of the stories
+- We don't pre estimate the stories. If the customer asks, we only give a ballpark estimation. But this is just a prediction, not a commitment. 
+- Then we do the story. 
+- *Then* we set the story time of what we think it would take us *now* to implement this story from the scratch (basically we don't take the time we spent on googling finding solutions and being on the wrong track and fixing our silly mistakes into account). 
+- At the end of the month, we bill the customer by the cumulative hours of stories he has accepted in that month. Bugs excluded.
+- The project ends when the customer runs out of either needs or money.
+- This is cost effective and a fail safe way for both parties. I expect to do business with you on the same grounds.
